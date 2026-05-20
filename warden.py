@@ -590,7 +590,7 @@ def main():
                         help="Save calibrated in file path")
     
     parser.add_argument("-q", "--quantile", action="store_true",
-                        help="Aggregate value probability with high quantile (90%)")
+                        help="Aggregate value probability with high quantile (90%%)")
     
     parser.add_argument("-a", "--adaptation", action="store_true",
                         help="Adapt costs over time windows during evaluation")
